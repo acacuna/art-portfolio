@@ -1,0 +1,118 @@
+
+.nav-wrapper {
+    background-color: transparent !important;
+    font-size: large;
+    height: 140px;
+    padding-left: 50px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+   .activelink{
+    color: #64dd17;
+    font-weight: bolder;
+  }
+  .font-link{
+    font-size: larger !important;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  nav ul li{
+      line-height: 130px !important;
+  }
+  nav ul li a{
+      color: black;
+      font-size: larger;
+      font-weight: bold;
+      font-family: 'Roboto Mono', monospace;
+      padding-left: 100px;
+  }
+  body {
+     display: flex;
+    min-height: 100vh;
+     flex-direction: column;
+     font-family: 'Roboto Mono', monospace;
+        }
+ h3{
+     font-weight: bold;
+ }
+ .underlined{
+     text-decoration: underline;
+ }
+ .justify1{
+     text-align: justify;
+     text-justify: inter-word;
+ }
+ h5{
+    text-align: justify;
+    text-justify: inter-word;
+ }
+    main {
+    flex: 1 0 auto;
+         }
+  .section{
+    padding-top: 4vw;;
+    padding-bottom: 4vw;
+  }
+ .iframe-container{
+   position: relative;
+   width: 100%;
+   padding-bottom: 56.25%;
+   height: 0;
+ }
+ .iframe-container iframe{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+ }
+
+ /* label color  */
+ .input-field label {
+    color: black;
+    font-size: medium;
+    font-weight: bold;
+  }
+ /* label focus color  */
+  .input-field input[type=text]:focus + label {
+    color: black !important;
+  }
+  .input-field input[type=email]:focus + label{
+      color: black;
+  }
+  .input-field input[type=textarea]:focus + label {
+      color: black;
+  }
+  /* label underline focus color */ */
+  .input-field input[type=text]:focus {
+    font-family: 'Roboto Mono', monospace !important;
+    border-bottom: 3px solid #000;
+    box-shadow: 0 3px 0 0 #000;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #000;
+  }
+   button{
+    font-family: 'Roboto Mono', monospace !important;
+    font-size: large;
+    font-weight: bold;
+   }
